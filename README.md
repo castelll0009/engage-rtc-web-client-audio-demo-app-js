@@ -48,6 +48,7 @@ Note: When you dial to this number a audio announcement will be played.
 - **disconnectCallText:** The text to be displayed on call button once the call is established or in the process of connecting. So the user will get the context and can disconnect the call.
 - **alertDivId:** If this div id is given, important events will be displayed here. This can be helpful while debugging the application. In this example it is `engage-digital-alert`
 - **consoleLog:** If its **true**, click-to-call logs as well as EngageDigital logs will be written to browser console
+
 Add the Engage Digital click-to-call javascript files to your website just before closing the `<body>` tag as shown below. Please make sure `engage-digital-click-to-call-config.js` is included before `engage-digital-click-to-call.js`, the order of including these files is important.
 
 ```html
