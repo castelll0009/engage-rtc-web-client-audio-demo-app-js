@@ -3,7 +3,7 @@ Engage RTC Click to call programmable audio sample web application describs how 
 The javascript files provided here will abstract away the logic of connecting to the Engage Digital platform, making the calls, binding remote audio to the html etc.
 It can be easily plugged into an existing website with minimal changes.
 
-Follow this guide step by step, to integrate Engage Platform's click-to-call feature to your Website.
+#### Follow this guide step by step, to integrate Engage Platform's click-to-call feature to your Website.
 
 Copy the below files to the root of your web application. For evaluation purpose you can create a folder `eg: myApp` and copy the files there.
  - engage-digital-click-to-call-config.js
@@ -11,17 +11,17 @@ Copy the below files to the root of your web application. For evaluation purpose
   
 Update your web page by incorporating the below UI elements. For evaluation purpose you can create an `index.html` in myApp folder and place the below contents there.
 
-Create a button, so that user can click on this button to make a call
+Create a button, so that user can click on this button to make a call\
 Example:
 ```html
   <button id="engage-digital-click-to-call-btn">Call</button>
 ```
-Create a audio element to play the remote audio. Make sure autoplay, and controls properties are given.
+Create a audio element to play the remote audio. Make sure autoplay, and controls properties are given.\
 Example:
 ```html
   <audio id="engage-digital-remote-audio" autoplay controls style="width: 300px; height: 225px; background-color: gray;"></audio>
 ``` 
-Optionally you can define a div element to display important events as part of call handling. This may help in debugging.
+Optionally you can define a div element to display important events as part of call handling. This may help in debugging.\
 Example:
 ```html
    <div id='engage-digital-alert'></div>
@@ -34,7 +34,7 @@ As an example refer the HTML content [`app-index.html`](https://github.com/RSYS-
 >*Note: The Ids used in these elements should be configured properly in [engage-digital-click-to-call-config.js](https://github.com/RSYS-EDP/engage-rtc-click-to-call-programmable-audio-web-app/blob/main/engage-digital-click-to-call-config.js).
 Refer Update Configuration section for more details.*
 
-Update Configuration
+### Update Configuration
 Update the configuration in `engage-digital-click-to-call-config.js` with proper values. It has the following properties.
 
 - **engageDomain:** Engage Digital RTC domain name. Get this domain name from Engage Platform Admin. In this demo you can use the publicly hosted **rtc.engagedigital.ai**
