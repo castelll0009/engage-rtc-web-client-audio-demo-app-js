@@ -61,7 +61,7 @@ Congratulations, now all the changes are done. You can open the Application in b
 
 >*Note: With the above steps, when engage-digital-click-to-call.js is loaded, it will connect to the Engage Digital platform with the engageDomain provided in the `engage-digital-click-to-call-config.js` file.*
 
-If you want to programmatically connect to the Engage Platform without providing this configuration file, you can call initializeEngageDigitalClickToCall(config) function explicitly. In that case, engage-digital-click-to-call-config.js file should not be included in your website.
+If you want to programmatically connect to the Engage Platform without providing this configuration file, you can call `initializeEngageDigitalClickToCall(config)` function explicitly. In that case, engage-digital-click-to-call-config.js file should not be included in your website.
 
 Example:
 ```javascript
