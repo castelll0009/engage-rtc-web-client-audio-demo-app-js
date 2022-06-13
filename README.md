@@ -1,4 +1,4 @@
-# engage-rtc-click-to-call-programmable-audio-web-app
+# engage-rtc-web-client-audio-demo-app-js
 Engage RTC Click to call programmable audio sample web application describs how you can easily integrate click-to-call feature into your website.
 The javascript files provided here will abstract away the logic of connecting to the Engage Digital platform, making the calls, binding remote audio to the html etc.
 It can be easily plugged into an existing website with minimal changes.
