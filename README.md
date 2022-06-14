@@ -65,7 +65,11 @@ Congratulations, now all the changes are done. You can open the Application in b
 If you want to programmatically connect to the Engage Platform without providing this configuration file, you can call `initializeEngageDigitalClickToCall(config)` function explicitly. In that case, engage-digital-click-to-call-config.js file should not be included in your website.
 
 Example:
-```javascript
+```html
+<body>
+ <!--Click to call UI elements and other content of your site -->
+ <script src="engage-digital-click-to-call.js"></script>
+ <script type="text/javascript">
   initializeEngageDigitalClickToCall({
   engageDomain: 'rtc.engagedigital.ai',
   callTo: '9070707120',
@@ -77,4 +81,6 @@ Example:
   alertDivId: 'engage-digital-alert',
   consoleLog: false,
   });
+</script>
+</body>
 ```
