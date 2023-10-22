@@ -7,7 +7,7 @@ var engageDigitalClickToCallConfig = {
     engageDomain: 'rtc.engagedigital.ai',
 
     /** The number to dial to. It should be a proper service number. Creating the service and assigning it to a number can be done through ESMP-UI. */
-    callTo: '900881',
+    callTo: '900882',
 
     /** Type of call. Valid values are video or audio. */
     callType: 'audio',
